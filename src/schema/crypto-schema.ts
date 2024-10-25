@@ -1,4 +1,4 @@
-import { z } from "zod";
+import { z } from "Zod";
 
 export const CurrencySchema = z.object({
   code: z.string(),
